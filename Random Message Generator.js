@@ -5,4 +5,5 @@ function randomMessageGenerator() {
     let randomBit3 = Math.floor(Math.random() * 2);
     return openings[randomBit1]+" "+events[randomBit2]+" "+endings[randomBit3];
 }
+//logging the random message generator function to the screen
 console.log(randomMessageGenerator());
